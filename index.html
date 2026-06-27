@@ -516,7 +516,10 @@
         </div>
         <button id="leadBtn" class="btn btn--accent" onclick="submitLead()">Отправить заявку <span class="arr">→</span></button>
         <p id="formErr" style="display:none;color:#C0392B;font-size:14px;margin:10px 0 0;text-align:center;">Не удалось отправить заявку. Попробуйте ещё раз.</p>
-        <p class="privacy">Нажимая кнопку, вы соглашаетесь на обработку данных.</p>
+        <label style="display:flex;gap:9px;align-items:flex-start;margin-top:14px;font-size:13px;color:var(--muted);line-height:1.5;cursor:pointer;">
+  <input type="checkbox" id="f-consent" style="margin-top:2px;flex:none;width:16px;height:16px;accent-color:var(--signal);cursor:pointer;">
+  <span>Я ознакомлен(а) с <a href="/privacy.html" target="_blank" style="color:var(--signal);">политикой конфиденциальности</a> и даю согласие на обработку моих персональных данных (имя, контакт) в целях обработки заявки.</span>
+</label>
       </div>
       <div class="ok-msg">Заявка принята 🎉<br>Свяжемся с вами в течение рабочего дня.</div>
     </div>
